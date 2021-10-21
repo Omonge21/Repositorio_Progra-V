@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="español">
+    <!-- Se indica el idioma en el que fue escrito para mejor accesibilidad  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Ultra specs </title>
+    <!-- Se indica el título que tendrá la página, esto se refleja en la pestaña -->
+</head>
+
+<body>
+    <!-- Se indica un header nivel 1 para el título de la pagina -->
+    <h1>Portable Ultra 2022</h1>
+    <!-- Se inserta una imagen ilustrativa -->
+    <img src="Pics/Ultra.png" alt="Imagen de la laptop" width="700" height="400" align="right">
+    <!-- Atributo align esta descontinuado, por eso se marca en rojo -->
+
+    <h2>Información</h2>
+
+    <p> <b>¡Presentando la nueva y mejorada Portable Ultra 2022!</b> </p>
+    <p>El revolucionario rediseño de nuestra línea de laptops Portable para el 2022 trae con sigo la mayor lista de
+        mejoras de cualquier laptop en el mercado.
+        Todo esto con la certificación ambiental nivel oro por la <a href="https://www.epeat.net/">EPEAT</a>.</p>
+        <!-- Se refiere al usuario a otra pagina con el uso de un link -->
+    <h2> Opciones y características </h2>
+
+    <!-- Se crea una table para una más ordenada demostración de los datos  -->
+    <table>
+        <table border=1 cellpadding=2 cellspacing=2>
+            <thead>
+                <tr>
+                    <th>
+                    </th>
+                    <th>Versión estándar
+                    </th>
+                    <th>Versión Premium
+                    </th>
+                    <th>Versión luxury
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Pantalla </b></td>
+                    <td>QHD (2560 x 1440) 14" OLED</td>
+                    <td>4k (3840x2160) 16" OLED</td>
+                    <td>6k (6144x3160) 17" Micro LED</td>
+                </tr>
+                <tr>
+                    <td><b>Frecuencia de actualización</b></td>
+                    <td>75hz</td>
+                    <td>120hz</td>
+                    <td>144hz</td>
+                </tr>
+                <tr>
+                    <td><b>CPU </b></td>
+                    <td>Ryzen 7 4800H</td>
+                    <td>Ryzen 9 5900HS</td>
+                    <td>Ryzen 9 5900HX</td>
+                </tr>
+                <tr>
+                    <td><b>GPU</b></td>
+                    <td>RTX 3060</td>
+                    <td>RTX 3070</td>
+                    <td>RTX 3080</td>
+                </tr>
+
+                <tr>
+                    <td><b>RAM</b></td>
+                    <td>12 GB</td>
+                    <td>16 GB</td>
+                    <td>32 GB</td>
+                </tr>
+                <tr>
+                    <td><b>Almacenamiento</b></td>
+                    <td>2 TB</td>
+                    <td>4 TB</td>
+                    <td>8 TB</td>
+                </tr>
+                <tr>
+                    <td><b>Parlantes</b></td>
+                    <td>Estandar</td>
+                    <td>Estandar</td>
+                    <td>Sistema de sonido Bang & Olufsen</td>
+
+                </tr>
+                <tr>
+                    <td><b>Precio</b></td>
+                    <td><strong>$1999</strong></td>
+                    <td><strong>$2999</strong></td>
+                    <td><strong>$4999</strong></td>
+                </tr>
+            </tbody>
+        </table>
+                <h2>Preordena la tuya</h2>
+        <p>Entregas apartir de Diciembre 2021</p>
+
+        <!-- Se usa un form para que usuario de los datos necesarios de enviar al servidor  -->
+        
+        <form>
+          
+          <label for="nombre">Nombre:</label>
+          <input id="nombre" type="text" name="nombre"><br>
+          <label for="apellido">Apellido:</label>
+          <input id="apellido" type="text" name="apellido"><br>
+          <label for="teléfono">Numero de teléfono:</label>
+          <input id="teléfono" type="number" name="teléfono"><br>
+          <label for="tarjeta">Numero de tarjeta:</label>
+          <input id="tarjeta" type="number" name="tarjeta"><br>
+          <label for="código">Código de seguridad:</label>
+          <input id="código" type="number" name="código"><br>
+          <!-- Se usa un radio buttom para hacer la selección del producto más sencilla -->
+          <p>Versión:</p>
+          <input type="radio" id="estándar" name="versión" value="estándar">
+          <label for="estándar">Estándar</label><br>
+          <input type="radio" id="premium" name="versión" value="premium">
+          <label for="premium">Premium</label><br>
+          <input type="radio" id="luxury" name="versión" value="luxury">
+          <label for="luxury">luxury</label><br>
+
+      <p></p>
+            <input type="submit" value="Submit">
+        </form>
+</body>
+
+</html>
