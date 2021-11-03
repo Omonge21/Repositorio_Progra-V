@@ -1,0 +1,47 @@
+#titulo {
+    background: black;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+
+div.a {
+    padding-left: 90pt;
+    padding-right: 90pt;
+}
+
+div.b {
+    padding-left: 50pt;
+    padding-right: 50pt;
+
+}
+div.c {
+    padding-left: 50pt;
+    padding-right: 50pt;
+
+}
+a:link {
+    color: red;
+  }
+  
+
+  a:visited {
+    color: green;
+  }
+  
+
+  a:hover {
+    color: hotpink;
+  }
+  
+
+  a:active {
+    color: blue;
+  }
+
+
+  .parrafo {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
